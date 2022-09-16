@@ -1,0 +1,73 @@
+/*Use the HTML style attribute for inline styling 
+ Use the HTML <style>element to define internal CSS 
+ Use the HTML <link>element to refer to an external CSS file
+ Use the HTML <head>element to store <style>and <link>elements 
+ Use the CSS color property for text colors 
+ Use the CSS font-family property for text fonts 
+ Use the CSS font-size property for text sizes 
+ Use the CSS border property for borders 
+ Use the CSS padding property for space inside the border 
+ Use the CSS margin
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: auto;
+    padding: 2%;
+
+}
+
+.Full_Page {
+    background-color: rgb(167, 70, 70);
+    background-image: url(Images\tecnology7.jpg);
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.Title_Bar {
+    color: rgb(51, 10, 84);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-bottom: 1%;
+}
+
+.Title_Image {
+    padding-top: 2%;
+}
+
+.Title_Content {
+    padding-left: 13%;
+    font-family: 'Nunito', 'Times New Roman', Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    text-align: center;
+}
+
+.Nav_Bar {
+    padding-top: 1.5%;
+    font-family: 'Nunito', 'Times New Roman', Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    width: 150px;
+    font-weight: bold;
+    list-style-type: none;
+    flex-direction: row;
+    padding-right: 0%;
+}
+
+.Blogs {
+    outline: 50%;
+    color: rgb(51, 10, 84);
+    /*background-color: rgba(234, 134, 134, 0.707);*/
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
